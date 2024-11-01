@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Plugin Helper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-28 11:47+0000\n"
+"PO-Revision-Date: 2018-06-28 11:51+0000\n"
+"Last-Translator: Grega <grradelj@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/class-wplhe.php:230
+msgid "A higher version of WordPress is installed"
+msgstr "A higher version of WordPress is installed"
+
+#: includes/class-wplhe.php:231
+msgid "This version of WordPress is installed"
+msgstr "This version of WordPress is installed"
+
+#: includes/class-wplhe.php:232
+msgid "A lower version of WordPress is installed"
+msgstr "A lower version of WordPress is installed"
+
+#: includes/class-wplhe.php:233
+msgid ""
+"You are using a WordPress installation with a higher patch version than this "
+"plugin supports OR the plugin developers did not specify or update the "
+"supported patch version in this plugins readme. New WordPress version SHOULD "
+"be backwards compatible and there SHOULD be no reason to worry about it. For "
+"more information check https://semver.org/ ."
+msgstr ""
+"You are using a WordPress installation with a higher patch version than this "
+"plugin supports OR the plugin developers did not specify or update the "
+"supported patch version in this plugins readme. New WordPress version SHOULD "
+"be backwards compatible and there SHOULD be no reason to worry about it. For "
+"more information check https://semver.org/ ."
+
+#: includes/class-wplhe.php:234
+msgid "A higher version of WooCommerce is installed"
+msgstr "A higher version of WooCommerce is installed"
+
+#: includes/class-wplhe.php:235
+msgid "This version of WooCommerce is installed"
+msgstr "This version of WooCommerce is installed"
+
+#: includes/class-wplhe.php:236
+msgid "A lower version of WooCommerce is installed"
+msgstr "A lower version of WooCommerce is installed"
+
+#: includes/class-wplhe.php:237
+msgid ""
+"You are using a WooCommerce installation with a higher patch version than "
+"this plugin supports OR the plugin developers did not specify or update the "
+"supported patch version in this plugins readme. New WooCommerce version "
+"SHOULD be backwards compatible and there SHOULD be no reason to worry about "
+"it. For more information check https://semver.org/ ."
+msgstr ""
+"You are using a WooCommerce installation with a higher patch version than "
+"this plugin supports OR the plugin developers did not specify or update the "
+"supported patch version in this plugins readme. New WooCommerce version "
+"SHOULD be backwards compatible and there SHOULD be no reason to worry about "
+"it. For more information check https://semver.org/ ."
+
+#: includes/class-wplhe.php:238
+msgid "A higher version of PHP is installed"
+msgstr "A higher version of PHP is installed"
+
+#: includes/class-wplhe.php:239
+msgid "This version of PHP is installed"
+msgstr "This version of PHP is installed"
+
+#: includes/class-wplhe.php:240
+msgid "A lower version of PHP is installed"
+msgstr "A lower version of PHP is installed"
+
+#: includes/class-wplhe.php:241
+msgid "Requires at least"
+msgstr "Requires at least"
+
+#: includes/class-wplhe.php:242
+msgid "Requires"
+msgstr "Requires"
+
+#: includes/class-wplhe.php:243
+msgid "Tested up to"
+msgstr "Tested up to"
+
+#: includes/class-wplhe.php:244
+msgid "Tested"
+msgstr "Tested"
+
+#: includes/class-wplhe.php:301
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-wplhe.php:308
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wplhe.php:316
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/class-wplhe.php:336
+msgid "Add note"
+msgstr "Add note"
+
+#: includes/class-wplhe.php:337
+msgid "Edit note"
+msgstr "Edit note"
+
+#: includes/class-wplhe.php:363
+msgid "Remove note"
+msgstr "Remove note"
+
+#: includes/class-wplhe.php:380
+msgid "Info"
+msgstr "Info"
+
+#: includes/class-wplhe.php:381
+msgid "Memo"
+msgstr "Memo"
+
+#: includes/class-wplhe.php:382
+msgid "Alert"
+msgstr "Alert"
+
+#: includes/class-wplhe.php:383
+msgid "Success"
+msgstr "Success"
+
+#: includes/class-wplhe.php:397
+msgid "Note type"
+msgstr "Note type"
+
+#: includes/class-wplhe.php:410
+msgid "Save note"
+msgstr "Save note"
+
+#: includes/class-wplhe.php:411
+msgid "Cancel"
+msgstr "Cancel"
+
+#. Name of the plugin
+msgid "WP Plugin Helper"
+msgstr "WP Plugin Helper"
+
+#. Description of the plugin
+msgid ""
+"Add notes to plugins on the plugin page and display WordPress, WooCommerce "
+"and PHP compatibility."
+msgstr ""
+"Add notes to plugins on the plugin page and display WordPress, WooCommerce "
+"and PHP compatibility."
+
+#. URI of the plugin
+msgid "https://grrega.com/plugins/free/wp-plugin-helper"
+msgstr "https://grrega.com/plugins/free/wp-plugin-helper"
+
+#. Author of the plugin
+msgid "Grega Radelj"
+msgstr "Grega Radelj"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://grrega.com/"
+msgstr "https://grrega.com/"

@@ -1,0 +1,290 @@
+.wplhe_note_column .spinner{
+	width:0;
+	margin:0;
+}
+.wplhe_note_column .spinner.active{
+	visibility:visible;
+	width:20px;
+	margin: 4px 10px 0;
+}
+
+
+
+.wplheleft{
+	float:left;
+}
+.wplheright{
+	float:right;
+}
+.wplhehide{
+	display:none;
+}
+.wplhe_column{
+	padding-top:0 !important;
+}
+
+
+
+.wp_plugin_helper_table td,
+.wp_plugin_helper_table th{
+	padding: 5px 5px !important;
+}
+.wp_plugin_helper_table td{
+	line-height: 1.2em;
+	display:table-cell !important
+}
+.wp_plugin_helper_table td:first-child{
+	min-width:100px;
+}
+.wp_plugin_helper_table th:not(:first-child),
+.wp_plugin_helper_table td:not(:first-child){
+	padding:5px 0 !important;
+	min-width:111px;
+	text-align:center;
+}
+
+
+
+.wplhe_memo{
+	background:#f7f7a1 !important;
+}
+.wplhe_alert{
+	background:#ffcccc !important;
+}
+.wplhe_info{
+	background:#ccf2ff !important;
+}
+.wplhe_success{
+	background:#ccffdd !important;
+}
+
+.wplhe_note_container.active_note,
+.wplhe_note_container.extended_note{
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+	margin-bottom:10px;
+}
+.wplhe_note_container.active_note.wplhe_memo,
+.wplhe_note_container.extended_note.wplhe_memo{
+	border:2px solid #eeee2b !important;
+}
+.wplhe_note_container.active_note.wplhe_alert,
+.wplhe_note_container.extended_note.wplhe_alert{
+	border:2px solid #ff9999 !important;
+}
+.wplhe_note_container.active_note.wplhe_info,
+.wplhe_note_container.extended_note.wplhe_info{
+	border:2px solid #99e6ff !important;
+}
+.wplhe_note_container.active_note.wplhe_success,
+.wplhe_note_container.extended_note.wplhe_success{
+	border:2px solid #99ffbb !important;
+}
+
+
+
+.wp_plugin_helper_table tr:not(:first-child):not(:last-child) td:first-child{
+	border-bottom: 2px solid rgba(0,0,0,0.1) !important;
+}
+.wp_plugin_helper_table tr:not(:first-child):not(:last-child) td:not(:first-child){
+	border-top:none;
+}
+
+
+
+.plugins tr.active + tr.inactive .wp_plugin_helper_table td,
+.plugins tr.active + tr.inactive .wp_plugin_helper_table th,
+.plugins tr.active.plugin-update-tr + tr.inactive .wp_plugin_helper_table td,
+.plugins tr.active.plugin-update-tr + tr.inactive .wp_plugin_helper_table th,
+.plugins .active .wp_plugin_helper_table td,
+.plugins .active .wp_plugin_helper_table th,
+.plugins .inactive .wp_plugin_helper_table td,
+.plugins .inactive .wp_plugin_helper_table th,
+.upgrade .plugins .wp_plugin_helper_table td,
+.upgrade .plugins .wp_plugin_helper_table th{
+	border-top:none;
+	box-shadow:none;
+}
+
+
+
+.wplhe_note_container{
+	min-width:200px;
+	background:#b3ecff;
+	border-radius:5px;
+}
+.active_note .wplhe_note,
+.extended_note .wplhe_note{
+	padding:20px 50px;
+}
+.wplhe_note_container,
+.wplhe_note_container *{
+	transition:all 0.5s !important;
+	word-wrap: break-word !important;
+}
+.wplhe_plugin_note_form_container{
+	padding:10px 20px;
+}
+.wplhe_note_container:not(.extended_note) .wplhe_plugin_note_form_container{
+	height:0;
+	overflow:hidden;
+	padding:0 20px;
+}
+.wplhe_note_container.extended_note .wplhe_plugin_note_form_container{
+	height:auto;
+	max-height:auto;
+	width:calc(100% - 40px);
+	min-height:50px;
+	height:auto;
+	display:block;
+	margin-top:10px;
+	background:white;
+}
+.wplhe_plugin_note_form{
+	height:0;
+	width:100%;
+	display:inline-block;
+}
+.wplhe_note_container.extended_note .wplhe_plugin_note_form{
+	height:auto;
+	max-height:auto;
+}
+.wplhe_add_note,
+.wplhe_edit_note{
+	margin-right:10px !important;
+}
+.wplhe_save_note{
+	margin-right:10px !important;
+}
+.wplhe_remove_note{
+	color:red;
+}
+.wplhe_note_type_container label{
+	margin-top:-3px;
+	margin-right: 10px;
+	display:inline-block;
+}
+.wplhe_plugin_note_form textarea{
+	width:100%;
+	height:100px;
+	float:right;
+}
+
+
+
+.wplhe_note_buttons_container{
+	margin-top:10px;
+}
+
+
+.wplhe_plugin_notes_links{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+
+@media only screen and (min-width: 1700px){
+	.wplhe_note_container{
+		max-width:450px;
+	}
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px){
+	.wplhe_note_container{
+		max-width:300px;
+		min-width:250px;
+	}
+}
+@media only screen and (min-width: 1400px){
+	.wplhe_column_long{
+		display:block;
+	}
+	.wplhe_column_short{
+		display:none;
+	}
+	
+}
+@media only screen and (max-width: 1400px){
+	.wplhe_column_long{
+		display:none;
+	}
+	.wplhe_column_short{
+		display:block;
+	}
+	.wp_plugin_helper_table th:not(:first-child), 
+	.wp_plugin_helper_table td:not(:first-child),
+	.wp_plugin_helper_table th:not(:first-child), 
+	.wp_plugin_helper_table td:not(:first-child){
+		min-width:50px !important;
+		font-size:0.8em;
+	}
+	.wp_plugin_helper_table td:first-child {
+		font-size:0.8em;
+		min-width: 70px;
+	}
+	.wplhe_plugin_note_form_container{
+		padding:10px;
+	}
+	.wplhe_note_container.extended_note .wplhe_plugin_note_form_container{
+		width: calc(100% - 20px);
+	}
+}
+
+@media only screen and (min-width: 783px) and (max-width: 1349px){
+	.wplhe_note_container{
+		max-width:200px;
+	}
+	.active_note .wplhe_note,
+	.extended_note .wplhe_note{
+		padding:20px 20px
+	}
+}
+@media only screen and (min-width: 1100px) and (max-width: 1349px){
+	.wp-list-table.plugins .plugin-title,
+	.wp-list-table.plugins .theme-title{
+		max-width:250px;
+	}
+}
+@media only screen and (min-width: 900px) and (max-width: 1100px){
+	.wp-list-table.plugins .plugin-title,
+	.wp-list-table.plugins .theme-title{
+		max-width:200px;
+	}
+}
+@media only screen and (min-width: 783px) and (max-width: 900px){
+	.wp-list-table.plugins .plugin-title,
+	.wp-list-table.plugins .theme-title{
+		max-width:175px;
+	}
+}
+@media only screen and (max-width: 782px){
+	.wplhe_note_container{
+		max-width:600px;
+		width:100%;
+	}
+}
+@media only screen and (max-width: 700px){
+	.wplhe_note_container{
+		max-width:500px;
+		width:100%;
+	}
+}
+@media only screen and (max-width: 600px){
+	.wplhe_note_container{
+		max-width:400px;
+		width:100%;
+	}
+}
+@media only screen and (max-width: 500px){
+	.wplhe_note_container{
+		max-width:300px;
+		width:100%;
+	}
+}
+@media only screen and (max-width: 400px){
+	.wplhe_note_container{
+		max-width:200px;
+		width:100%;
+	}
+}
+
